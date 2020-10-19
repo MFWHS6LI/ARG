@@ -14,9 +14,18 @@ a {
     margin-right: 2vh;
     color: #f0f0f0;
     text-decoration: none;
-    background-color: gray;
+    background-color: rgb(63, 63, 63);
     text-align: center;
     padding: 1.5vh;
+    border: 1vh;
+    border-color: rgb(46, 46, 46);
+    border-style: solid;
+    font-size: 24px;
+}
+a:hover {
+    color: rgb(32, 32, 32);
+    background-color: rgb(180, 177, 177);
+    border-color: #c5c5c5;
 }
 
 body {
@@ -31,4 +40,5 @@ h1 {
 }
 p {
     font-size: 24px;
+    color: black;
 }
